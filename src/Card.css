@@ -1,0 +1,107 @@
+body{
+    display:flex;
+    justify-content: center;
+    background-color:#ccc;
+}
+.MyCard{
+    border:2px solid #fff;
+    width:600px;
+    height:400px;
+    background-color:darkblue;
+    border-radius: 35px;
+    margin:60px;
+    padding: 20px;
+    box-sizing: border-box;
+   
+}
+.Container{
+    display:flex;
+    flex-direction: column;
+    height:100%;
+    width:100%;
+    color:#fff;
+}
+.Container .title{
+    text-align: right;
+    font-size:45px;
+    font-weight:900;
+    margin: 0px;
+}
+
+
+.smart-chip{
+    width:70px;
+  
+}
+.Card-Number{
+ font-size:20px;
+}
+
+.Card-Body h2{
+    margin:0px;
+}
+.Card-Body{
+    display:flex;
+    justify-content: space-between;
+
+}
+.Card-Info{
+    display: flex;
+    flex-direction: column;
+ 
+    width:70%;
+
+
+}
+.Ref{
+    display: flex;
+    justify-content: space-between;
+    
+
+}
+
+.Card-Valid{
+    display:flex;
+   
+}
+.Card-Valid>p{
+    margin-top:30px;
+}
+.Card-Valid>i{
+    margin-top:45px;
+}
+.Card-Date>p{
+   margin:0;
+}
+.Card-Date>h1{
+    margin-top:0;
+   font-size:40px;
+ }
+.Card-ref{
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin-bottom: 25px;
+    
+}
+
+.monetic{
+    width:150px;
+    
+   
+}
+
+.data-input{
+    margin:10px;
+    display: flex;
+    justify-content: center;
+}
+.data{
+    margin:0px 10px;
+    height:50px;
+    border:1px solid #ccc;
+    border-radius:5px;
+    padding:0px 10px;
+    box-sizing: border-box;
+    
+}
